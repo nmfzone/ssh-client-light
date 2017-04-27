@@ -11,5 +11,5 @@ RUN echo -e 'Host *\nUseRoaming no' >> /etc/ssh/ssh_config
 RUN ssh-keyscan -t rsa github.com >> /etc/ssh/known_hosts
 RUN ssh-keyscan -t rsa gitlab.com >> /etc/ssh/known_hosts
 
-CMD ["bash"]
+CMD ["/bin/bash"]
 ENTRYPOINT ["ssh"]
