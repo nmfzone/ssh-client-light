@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.3
+FROM gliderlabs/alpine:3.4
 
 LABEL maintainer "Nabil Muhammad Firdaus <123.nabil.dev@gmail.com>"
 
